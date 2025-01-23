@@ -1,4 +1,58 @@
 <p align="center">
+  <img src="https://github.com/DavidVF7/Conversor-de-Monedas/assets/103916971/645bfae6-38cf-4f90-add7-8f9b3929cb5a" alt="Conversor de Monedas Logo">
+</p>
+
+# Currency Converter 💰🌍💵
+
+Developed as part of the Currency Converter Challenge, proposed by Alura Latam in collaboration with Oracle in the ONE program, as part of the Back-End specialization.
+
+## Project Overview 📄
+
+This project is a Currency Converter developed in Java that allows you to convert different currencies using a real-time exchange rate API. With this converter, you can make requests to the API, parse the JSON response, filter the currencies of interest, and display the results to users clearly and concisely. Additionally, the application saves a conversion history that includes a timestamp for each query, allowing users to track their previous conversions and see when they were made.
+
+## Technologies Used 🛠️
+
+- **Programming Language:** Java
+- **Exchange Rate API:** A real-time exchange rate API was used to obtain conversion rates between different currencies.
+- **Gson Library:** Gson was used to parse the API's JSON response and convert it into Java objects for manipulation.
+- **Version Control:** Git/GitHub were used for version control of the project and team collaboration.
+- **Integrated Development Environment (IDE):** IntelliJ IDEA was the development environment used to write, debug, and run the Java code.
+
+## Classes and Features 🔍
+
+### ConsultaConversion.java
+
+This class is responsible for querying an API to get exchange rates between different currencies.
+
+### Calculations.java
+
+This class handles the logic related to currency conversions. It uses the exchange rate information obtained through `ConsultaConversion` to perform the conversions.
+
+### Principal.java
+
+The main entry point of the program. It handles user interaction through the console, displaying a menu of options and managing currency conversions.
+
+### GeneradorDeArchivos.java
+
+This class is responsible for saving the query history in a text file.
+
+## Developed by 👨‍💻
+- Jordan Giraldo
+
+## Usage Instructions 🚀
+
+1. Clone this repository to your local machine.
+2. Open the project in IntelliJ IDEA, Visual Studio Code, or another IDE of your choice.
+3. Run the `Principal.java` class to start the program.
+4. Follow the on-screen instructions to perform currency conversions.
+
+Enjoy converting currencies!
+
+## How It Works 🎥
+
+Here you can see a visual demonstration of how the project works:
+
+[Project Demonstration](https://youtu.be/a42KEl1l0kY)<p align="center">
   <img src=https://github.com/DavidVF7/Conversor-de-Monedas/assets/103916971/645bfae6-38cf-4f90-add7-8f9b3929cb5a"
 </p>
 
